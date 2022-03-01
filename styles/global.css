@@ -20,10 +20,7 @@ body {
     /* layout */
     display: grid;
     grid-template-rows: 80px 1fr auto;
-
 }
-
-
 
 header {
     display: flex;
