@@ -39,7 +39,7 @@ main {
 }
 
 section {
-    background-color: linear-gradient (lightblue, lavender);
+    background-color: linear-gradient(lightblue, lavender);
     max-width: 80%;
     display: flex;
     flex-direction: column;
