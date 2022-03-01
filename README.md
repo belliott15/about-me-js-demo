@@ -16,7 +16,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
     - template: head and body in html, header, main, footer
     - add header text, main section and text, name pronouns hometown
-    - add button info sectoion and hidden div
+    - add button info section and hidden div
     - style hidden class
     - add event listener for button click in app.js
     - more styling
