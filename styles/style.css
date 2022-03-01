@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    box-sizing: border-box;
+}
 body {
     /* feel free to update these css variables for a quick theme */
 
@@ -22,7 +26,7 @@ body {
     --color5: hsla(224, 40%, 79%, 1); */
 
     --header-height: 80px;
-    --shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
+    --shadow: 0px 10px 20px -12px #2a9d8f;
     --gutter: 30px;
     --footer-height: 30px;
 
@@ -36,28 +40,31 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    background-color: #2a9d8f;
+
 }
 
 section {
-    background-color: linear-gradient(lightblue, lavender);
+    background-color: #264653;
     max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
+    padding: 10px 5px;
     border: solid 2px var(--color1);
+    color: white;
+    border-radius: 10px;
+    width: 346px;
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: #264653;
     height: var(--header-height);
     box-shadow: var(--shadow);
+    color: white;
 }
 
 h2 {
@@ -83,10 +90,31 @@ footer {
     bottom: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: #264653;
     box-shadow: var(--shadow);
+    color: white;
+    margin-top: 10px;
 }
 
 .hidden {
     display: none;
-};
+}
+.hobbies{
+    width: 346px;
+}
+
+#profile-photo {
+    height: 300px;
+    border-radius: 50px;
+}
+
+#btn{
+    border-radius: 50px;
+    height: 3em;
+    width: 20em;
+    border: none;
+    background-color: #f4a261;
+    margin-bottom: 20px;
+    font-family: Playfair Display;
+    font-size: 16px;
+}
