@@ -20,10 +20,7 @@ body {
     /* layout */
     display: grid;
     grid-template-rows: 80px 1fr auto;
-
 }
-
-
 
 header {
     display: flex;
@@ -36,7 +33,6 @@ header {
 main {
     overflow-y: auto;
 }
-
 
 footer {
     background-color: var(--chrome-background-opaque);
