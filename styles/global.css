@@ -34,7 +34,6 @@ main {
     overflow-y: auto;
 }
 
-
 footer {
     background-color: var(--chrome-background-opaque);
     padding: 10px var(--gutter);
