@@ -32,8 +32,6 @@ body {
 
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
-    min-width: 600px;
-    min-height: 400px;
 }
 
 main {
@@ -49,19 +47,17 @@ main {
 section {
     background-color: #264653;
     max-width: 80%;
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: solid 2px var(--color1);
     color: white;
     border-radius: 10px;
-    min-width: 600px;
-    min-height: 400px;
 }
 
 header {
-    display: flex;
+    display: grid;
     justify-content: flex-end;
     background-color: #264653;
     height: var(--header-height);
@@ -90,7 +86,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    display: flex;
+    display: grid;
     justify-content: flex-end;
     background-color: #264653;
     box-shadow: var(--shadow);
@@ -104,12 +100,13 @@ footer {
 }
 
 .profile {
-    height: 80%;
+    height: 90%;
     width: 50%;
     font-size: 20px;
-    position: fixed;
     padding: 20px;
     min-height: 400px;
+    min-width: 450px;
+    display: flex;
 }
 
 #profile-photo {
@@ -119,10 +116,19 @@ footer {
     justify-content: center;
 }
 
+.hobbies {
+    height: 80%;
+    width: 50%;
+    font-size: 20px;
+    position: fixed;
+    padding: 20px;
+    min-height: 400px;
+}
+
 #btn{
     border-radius: 50px;
     height: 4em;
-    width: 40%;
+    width: 50%;
     border: none;
     background-color: #f4a261;
     font-family: Playfair Display;

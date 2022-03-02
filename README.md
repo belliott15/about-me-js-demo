@@ -20,8 +20,6 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
     - style hidden class
     - add event listener for button click in app.js
     - more styling
-## Rubric
-
 
 Additional considerations:
 
