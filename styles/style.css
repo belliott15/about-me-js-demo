@@ -42,6 +42,10 @@ main {
     margin-bottom: calc(var(--footer-height));
     background-color: #2a9d8f;
     height: auto;
+    background-image: url(/Images/Circus-Top.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 section {
@@ -92,12 +96,6 @@ footer {
     box-shadow: var(--shadow);
     color: white;
     margin-top: 10px;
-}
-
-.circus-top {
-    height: 100%;
-    position: fixed
-    z-index: -1;
 }
 
 .profile {
